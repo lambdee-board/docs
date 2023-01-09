@@ -6,7 +6,7 @@
 ## Install
 
 ```sh
-$ bundle install
+$ bin/setup
 ```
 
 ## Run in development
@@ -14,13 +14,13 @@ $ bundle install
 Listens on `http://127.0.0.1:4000/`.
 
 ```sh
-$ bundle exec jekyll serve
+$ bin/dev
 ```
 
 ## Build for production
 
 ```sh
-$ bundle exec jekyll build
+$ bin/build
 ```
 
 ## Deploy
@@ -28,5 +28,5 @@ $ bundle exec jekyll build
 Deploy to `https://lambdee.app`.
 
 ```sh
-$ bundle exec cap production deploy
+$ bin/deploy
 ```
