@@ -25,6 +25,8 @@ theme: just-the-docs
 permalink: pretty
 exclude: [
   "node_modules/",
+  "config/",
+  "log/",
   "*.gemspec",
   "*.gem",
   "Gemfile",

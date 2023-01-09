@@ -3,4 +3,4 @@
 BIN_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 cd $BIN_DIR/..
 
-bundle exec cap production deploy
+bundle exec cap production deploy:with_build
